@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:cdh_lib
 LIBS:generic_ssm-cache
 LIBS:general_ssm
-LIBS:obc-ssm-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -154,6 +153,7 @@ NoConn ~ 3750 2350
 NoConn ~ 3750 2250
 Text Label 4050 2050 0    60   ~ 0
 SCK
+NoConn ~ 3750 1850
 NoConn ~ 3750 1750
 Text Label 4000 1350 0    60   ~ 0
 MISO
@@ -1153,12 +1153,4 @@ F 3 "" H 6950 4400 50  0001 C CNN
 $EndComp
 Text Label 6800 4400 2    60   ~ 0
 MISO_A
-Text Label 4000 1850 0    60   ~ 0
-CS_MEM
-Wire Wire Line
-	3750 1850 4000 1850
-Text Label 9700 4300 0    60   ~ 0
-CS_MEM
-Text Label 9700 4400 0    60   ~ 0
-CS_RTC
 $EndSCHEMATC
